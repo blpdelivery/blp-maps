@@ -3,7 +3,7 @@
   "sources": {
     "raster-tiles": {
       "type": "raster",
-      "tiles": ["http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"],
+      "tiles": ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
       "tileSize": 256,
       "attribution": "Map tiles &copy; <a target='_blank' rel='noopener noreferrer' nohref='https://maps.google.com'>Google</a>."
     }
